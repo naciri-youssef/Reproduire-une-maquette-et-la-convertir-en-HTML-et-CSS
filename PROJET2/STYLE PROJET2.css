@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+    height: 2000px;
+}
+
+ul{
+    list-style-type:none ;
+}
+header{
+    background: #F35858;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+header img{
+    float: left;
+    padding: 10px 30px;
+}
+header ul{
+    float: left;
+    padding-top: 29px;
+    padding-bottom: 20.5px;
+}
+header ul li{
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+
+}
+.btns{
+    float: right;
+    margin: 20px 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.btn-1{
+    color: white;
+    padding: 9px 20px;
+    border-radius: 10px;
+    border: none;
+    background: #070347;
+}
+.btn-2{
+    color: white;
+    padding: 7px 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background: #F35858;
+}
+button:hover{
+    background-color: #FAAF40;
+}
+a:hover{
+    background-color: #FAAF40;
+}
+.contact{
+    float: left;
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    padding-top: 40px;
+    margin-top:  127px;
+    background: #F35858;
+    width: 100%;
+}
+h1{
+    color: white;
+    padding-bottom: 15px;
+    font-size: 4rem;
+}
+.contact p{
+    font-size: 1.1em;
+    padding-bottom: 50px;
+}
+.form{
+    float: left;
+    margin-top: 0;
+    width: 50%;
+    background: Red;
+    padding: 10px 30px;
+}
+input{
+    margin: 10px 0px;
+    width: 100%;
+}
+.text{
+    margin: 10px 0px;
+    width: 100%;
+    padding: 0;
+    resize: none;
+}
+.team{
+
+}
+.submit{
+    float: right;
+    color: white;
+    padding: 9px 20px;
+    border-radius: 10px;
+    border: none;
+    background: #F35858;
+}
+.social-media{
+    margin: 10px 0px;
+    width: 100%;
+}
+.lander-team{
+    float: right;
+    padding-top: 10px;
+    width: 50%;
+    background: Red;
+    margin-bottom: 40px;
+}
+
+.social-media ul li p{
+    margin-left: 24px;
+}
