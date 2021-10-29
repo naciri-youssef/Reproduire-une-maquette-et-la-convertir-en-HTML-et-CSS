@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Comfortaa', cursive;
-    height: 2000px;
+    height: fit-content;
 }
 
 ul{
@@ -34,7 +34,7 @@ header ul li{
 }
 .btns{
     float: right;
-    margin: 20px 50px;
+    margin: 20px 30px;
 }
 a{
     color: white;
@@ -42,14 +42,14 @@ a{
 }
 .btn-1{
     color: white;
-    padding: 9px 20px;
+    padding: 1rem 3rem 1rem;
     border-radius: 10px;
     border: none;
     background: #070347;
 }
 .btn-2{
     color: white;
-    padding: 7px 20px;
+    padding: 1rem 3rem 0.9rem;
     border-radius: 10px;
     border: 2px solid white;
     background: #F35858;
@@ -60,7 +60,7 @@ button:hover{
 a:hover{
     background-color: #FAAF40;
 }
-.contact{
+#contact{
     float: left;
     text-align: center;
     font-family: 'Assistant', sans-serif;
@@ -74,50 +74,156 @@ h1{
     padding-bottom: 15px;
     font-size: 4rem;
 }
-.contact p{
+#contact p{
     font-size: 1.1em;
     padding-bottom: 50px;
 }
+.clearfix{
+    clear: both;
+}
 .form{
     float: left;
-    margin-top: 0;
     width: 50%;
-    background: Red;
-    padding: 10px 30px;
+    margin-top: 50px;
+    padding-left: 60px;
 }
-input{
-    margin: 10px 0px;
-    width: 100%;
-}
-.text{
-    margin: 10px 0px;
-    width: 100%;
-    padding: 0;
-    resize: none;
+.form p{
+    padding-bottom: 50px;
 }
 .team{
-
-}
-.submit{
     float: right;
-    color: white;
-    padding: 9px 20px;
-    border-radius: 10px;
-    border: none;
-    background: #F35858;
+    width: 50%;
+    margin-top: 50px;
+    padding-right: 60px;
+}
+h2{
+    font-size: 1.7rem;
+    padding-bottom: 30px;
+    color: #070347;
+}
+h3{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.color_orange{
+    color: #F35858;
 }
 .social-media{
-    margin: 10px 0px;
-    width: 100%;
-}
-.lander-team{
     float: right;
-    padding-top: 10px;
     width: 50%;
-    background: Red;
-    margin-bottom: 40px;
+    padding-right: 60px;
+    display: inline;
+}
+.C1 img{
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+.C1 p{
+    margin-right: 40px;
 }
 
-.social-media ul li p{
-    margin-left: 24px;
+input, textarea{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.35rem;
+    font-stretch: normal;
+    color: #bdc7cf;
+    padding: 0.6rem 0.8rem;
+    border: 1px solid #C0C6CC;
+    background: #fff;
+    margin: 0;
+    width: 95%;
+    border-radius: 0.4rem;
+    outline: none;
+}
+textarea{
+    resize: none;
+}
+#submit_button{
+    float: right;
+    background-color: #F35858;
+    margin-top: 0.5em;
+    margin-right: 2.5em;
+    font-size: 80%;
+    padding: 1rem 3rem 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.3rem;
+    color: white;
+    margin-bottom: 50px;
+}
+#submit_button:hover{
+    background-color: #FAAF40;
+}
+
+footer{
+    width: 100%;
+    height: fit-content;
+    background-color: #262261;
+    font-family: sans-serif;
+}
+.titles{
+    float: left;
+    line-height: 1.6rem;
+    margin: 20px 40px;
+}
+.clearfix{
+    clear: both;
+}
+.titles ul{
+    list-style: none;
+}
+h5{
+    color: #ffffff;
+}
+.nav-footer{
+    color: #b7b7b7;
+    font-weight: 100;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+#footertext{
+    font-size: 0.75em;
+    color: #b7b7b7;
+    font-weight: 100;
+}
+.footerlast{
+    background-color: #070347;
+    padding: 10px 50px;
+}
+.color_orange{
+    color: #F35858;
+}
+.icons img{
+    display: inline-block;
+    margin-right: 5px;
+}
+.icons #facebook{
+    width: 10px;
+    height: 20px;
+}
+.icons #twitter {
+    width: 35px;
+    height: 20px;
+}
+.icons #instagram{
+    width: 20px;
+    height: 20px;
+}
+.icons #linkedin{
+    width: 22px;
+    height: 20px;
+}
+#footerbtn{
+    margin-top: 20px;
+    border: none;
+    padding: 10px 40px;
+    background-color: #070347;
+    border-radius: 8px;
+    color: white;
+}
+#footerbtn:hover{
+    background-color: #FAAF40;
 }
